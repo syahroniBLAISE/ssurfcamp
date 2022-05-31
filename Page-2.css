@@ -452,6 +452,8 @@
     height: 382px;
     margin-top: 394px;
     margin-left: auto;
+
+    visibility: hidden;
   }
 
   .u-section-2 .u-group-1 {
@@ -834,7 +836,7 @@
 }
 
 .u-section-5 .u-image-1 {
-  background-image: url("images/8e2ffb9ef58b123ffec6729152a196d5.jpeg");
+  background-image: url("images/home03.jpeg");
   min-height: 284px;
   background-position: 50% 50%;
 }
@@ -875,13 +877,13 @@
 }
 
 .u-section-5 .u-image-2 {
-  background-image: url("images/cf0e6e013c5180831a03beed959a6d49.jpeg");
+  background-image: url("images/surf02.jpeg");
   min-height: 284px;
   background-position: 50% 50%;
 }
 
 .u-section-5 .u-image-3 {
-  background-image: url("images/ee3ea77689312a53679a4c8d610a8277.jpeg");
+  background-image: url("images/home04.jpeg");
   min-height: 284px;
   background-position: 50% 50%;
 }
@@ -923,7 +925,7 @@
 }
 
 .u-section-5 .u-image-4 {
-  background-image: url("images/e4b871eea675111998565659adc76f18.jpeg");
+  background-image: url("images/home05.jpeg");
   min-height: 284px;
   background-position: 50% 50%;
 }
