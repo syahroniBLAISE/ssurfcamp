@@ -8,7 +8,8 @@
     <title>Mentawai Family Surf Camp</title>
     <link rel="stylesheet" href="nicepage.css" media="screen" />
     <link rel="stylesheet" href="Page-2.css" media="screen" />
-    <script
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+      <script
       class="u-script"
       type="text/javascript"
       src="jquery-1.9.1.min.js"
@@ -31,7 +32,11 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Bangers:400"
     />
-
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="font-awesome/css/font-awesome.css"
+    />
     <meta name="theme-color" content="#539092" />
     <meta property="og:title" content="Page" />
     <meta property="og:type" content="website" />
@@ -39,31 +44,89 @@
   <body class="u-body u-xl-mode">
     <section class="u-clearfix u-grey-5 u-section-1" id="sec-b19d">
       <div class="u-clearfix u-sheet u-sheet-1">
-        <img
-          src="images/header01.jpeg"
-          alt=""
-          class="u-expanded-width-sm u-image u-image-default u-image-1"
-        />
+        <nav class="navbar navbar-expand-lg bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img
+                src="images/logo01.png"
+                alt=""
+                class="u-image u-image-default u-image-2"
+                data-image-width="332"
+                data-image-height="236"
+                style="width: 100px; height: 100px"
+              />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="/index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/about.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/toMentawai.html">How to Get</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/price.html">prices</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/activity.html">Aktivities</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner ">
+          <div class="carousel-item active" data-bs-interval="5000">
+            <img src="images/header01.jpeg" class="d-block w-100 u-expanded-width-sm u-image u-image-default u-image-1" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="images/home01.jpeg" class="d-block w-100 u-expanded-width-sm u-image u-image-default u-image-1" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="images/home03.jpeg" class="d-block w-100 u-expanded-width-sm u-image u-image-default u-image-1" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
         <div
           class="u-container-style u-expanded-width-sm u-expanded-width-xs u-group u-group-1"
         >
           <div class="u-container-layout u-container-layout-1">
-            <h1 class="u-custom-font u-text u-title u-text-1">
+            <h2 class="u-custom-font u-text u-text-palette-1-base u-text-1">
               mentawai family surf camp
-            </h1>
-            <p class="u-text u-text-palette-5-dark-1 u-text-2">
+            </h2>
+            <!-- <p class="u-text u-text-palette-5-dark-1 u-text-2">
               <i
-                >Mentawai Family Surf Camp, <br />
-                Best trip for adventure</i
+                ><h3>Mentawai Family Surf Camp</h3>, <br />
+                <h3>Best trip for adventure</h3></i
               >
-            </p>
-            <!-- <a href="#" class="u-btn u-button-style u-palette-1-base u-btn-1"
-              >read more about</a
-            > -->
+            </p> -->
+             <a href="/about.html" class="u-btn u-button-style u-palette-1-base u-btn-1"
+              >about us</a
+            >
           </div>
         </div>
       </div>
     </section>
+
     <section class="u-clearfix u-grey-5 u-section-2" id="sec-c390">
       <div class="u-clearfix u-sheet u-sheet-1">
         <div
@@ -157,7 +220,11 @@
               bungalows salted on the beach front of nyang nyang island ,North
               Mentawai,E-Bay breaks directly infant of the campus you can watch
               the waves rolling of your balcony ,beng being and pitstop just
-              short away
+              short away. <br>
+              For Chasing all the other breaks we provide a wooden
+              speedboat 2x40 hp engines to get the waves including local
+              surf guide and skipper.Based on the location we cover north
+              mentawai and playground area.
             </p>
             <!-- <a
               href="#"
@@ -182,19 +249,27 @@
                   <h2
                     class="u-custom-font u-text u-text-palette-1-base u-text-1"
                   >
-                    WHY FAMILIY SURF CAMP?
+                    How to go there?
                   </h2>
                   <p class="u-text u-text-palette-5-dark-1 u-text-2">
-                    For Chasing all the other breaks we provide a wooden
-                    speedboat 2x40 hp engines to get the waves including local
-                    surf guide and skipper.Based on the location we cover north
-                    mentawai and playground area.
+                    1.We will greeting you at Padang airport according to your Flight arrival and we take you to the hotel  to get overnight before the ferry leaves in the next morning. <br>
+                    
+                    2.Get ready at 6 am at the love hotel and we take you to ferry. <br>
+                    3.Arrived in Siberut,The staff and speedboat standby waiting for and ready to take you to the camp about an half hour . <br>
+                    4.Surfing during your period <br>
+                    5.In the morning at 9 get ready and prepare  as speedboat standby to take you to siberut to catch a ferry to leave to padang at 3 pm…arrived at 6 pm our staff will wait for you and ready to take you to the hotel or airport. <br>
                   </p>
-                  <!-- <a
-                    href="#"
+                  <a
+                    href="/toMentawai.html"
                     class="u-border-2 u-border-grey-dark-1 u-btn u-button-style u-btn-1"
-                    >read more about</a
-                  > -->
+                    >FERRY SCHEDULE TO PLAYGROUND</a
+                  >
+                  <!-- FERRY SCHEDULE TO PLAYGROUND
+                    PADANG - MENTAWAI
+                    Tuesday,Thursday,and Saturday at 7 am
+                    MENTAWAI - PADANG
+                    Tuesday,Thursday and Saturday at 3 pm
+                    The fast ferry takes 4 to 5 hours -->
                 </div>
               </div>
               <div
@@ -228,14 +303,14 @@
                         class="u-custom-font u-text u-text-palette-1-base u-text-1"
                       >
                         <a
-                          href="images/home03.jpeg"
+                          href="/toMentawai.html"
                           target="_self"
-                          >Package IRTERARY</a
+                          >booking</a
                         >
                       </h2>
-                      <h6 class="u-custom-font u-text u-text-2">$0000</h6>
+                      <!-- <h6 class="u-custom-font u-text u-text-2">$0000</h6> -->
                       <a
-                        href="images/home03.jpeg"
+                        href="/toMentawai.html"
                         class="u-border-2 u-border-grey-dark-1 u-btn u-button-style u-btn-1"
                         >read more</a
                       >
@@ -256,9 +331,9 @@
                         class="u-custom-font u-text u-text-palette-1-base u-text-3"
                       >
                         <a
-                          href="images/package02.jpeg"
+                          href="/price.html"
                           target="_self"
-                          >Package ten days A</a
+                          >Package ten days Regular</a
                         >
                         <br />
                       </h2>
@@ -266,7 +341,7 @@
                         $1950 sd $5400
                       </h6>
                       <a
-                        href="images/package02.jpeg"
+                        href="/price.html"
                         class="u-border-2 u-border-grey-dark-1 u-btn u-button-style u-btn-2"
                         >read more</a
                       >
@@ -296,7 +371,7 @@
                         class="u-custom-font u-text u-text-palette-1-base u-text-5"
                       >
                         <a
-                          href="images/package01.jpeg"
+                          href="/price.html"
                           target="_self"
                           >Package ten days Ekslusif</a
                         >
@@ -306,7 +381,7 @@
                         $3150 sd $8559
                       </h6>
                       <a
-                        href="images/package01.jpeg"
+                        href="/price.html"
                         class="u-border-2 u-border-grey-dark-1 u-btn u-button-style u-btn-3"
                         >read more</a
                       >
@@ -329,11 +404,11 @@
                         <a
                           href="images/home02.jpeg"
                           target="_self"
-                          >BUNGALOWS AND SPOTS</a
+                          >what we serve</a
                         >
                         <br />
                       </h2>
-                      <h6 class="u-custom-font u-text u-text-8">$0000 +</h6>
+                      <!-- <h6 class="u-custom-font u-text u-text-8">$0000 +</h6> -->
                       <a
                         href="images/home02.jpeg"
                         class="u-border-2 u-border-grey-dark-1 u-btn u-button-style u-btn-4"
@@ -349,7 +424,7 @@
       </div>
     </section>
 
-    <section class="u-clearfix u-grey-5 u-section-6" id="sec-6908">
+    <!-- <section class="u-clearfix u-grey-5 u-section-6" id="sec-6908">
       <div class="u-clearfix u-sheet u-sheet-1">
         <div class="u-clearfix u-gutter-30 u-layout-wrap u-layout-wrap-1">
           <div class="u-gutter-0 u-layout">
@@ -462,7 +537,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <section class="u-clearfix u-image u-section-7" id="sec-068d">
       <div class="u-clearfix u-sheet u-sheet-1"></div>
@@ -538,6 +613,12 @@
                 >
                   <h2 class="u-text u-text-default u-text-1">Cottage</h2>
                   <p class="u-text u-text-default u-text-2">back to Nature.</p>
+                  <p class="u-text u-text-default u-text-2"><a
+                        href="/activity.html"
+                        class="u-border-2 u-border-grey-dark-1 u-btn u-button-style u-btn-4"
+                        >activities</a
+                      ></p>
+                  
                 </div>
               </div>
             </div>
@@ -563,16 +644,24 @@
         >
       </div>
     </section> -->
-
     <section class="u-backlink u-clearfix u-grey-80">
-      <span>Website </span>
-      <p class="u-text">
-        <span>created by</span>
-      </p>
-      <a class="u-link" href="https://partnersablon.com" target="_blank">
-        <span>SYAHRONI @partnersablon</span> </a
-      >.
-      <p class="u-text"><span>2022</span></p>
+      <div class="u-layout-row">
+        <div class="u-layout-col">
+          <a href="https://m.facebook.com/Partnersablon-619631078529240" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>
+        </div>
+        <div class="u-layout-col">
+          <a href="https://www.instagram.com/mentawaifamilysurfcamp" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
+        </div>
+        <div class="u-layout-col">
+          <a href="https://api.whatsapp.com/send?phone=6281292968812" target="_blank"><i class="fa fa-whatsapp fa-2x"></i></a>
+        </div>
+      </div>
+      <div class="u-layout-row">
+        <div class="u-layout-col  u-align-center">
+        <p> Website created by <a class="u-link" href="https://partnersablon.com" target="_blank">partnersablon </a> 2022 </p>
+      </div>
+      </div>
     </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
   </body>
 </html>
